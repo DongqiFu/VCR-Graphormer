@@ -14,7 +14,12 @@ https://arxiv.org/pdf/2403.16030
 
 2. Commands are in "demo.txt"
 
-3. Dependencies are in "environment.yml"
+3. Dependencies are in "environment.yml". Major libraries are below.
+   * dgl == 0.9.1
+   * torch == 2.0.1
+   * torch-geometric == 2.3.1
+   * torch-scatter == 2.1.1
+   * torch-sparse == 0.6.17
 
 ## Codebase Acknowledgment
 1. [NAGphormer: A Tokenized Graph Transformer for Node Classification in Large Graphs](https://github.com/JHL-HUST/NAGphormer)
