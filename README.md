@@ -1,5 +1,7 @@
 # VCR-Graphormer: A Mini-batch Graph Transformer via Virtual Connections, ICLR 2024
 
+https://arxiv.org/pdf/2403.16030
+
 ![pic](/poster.png)
 
 
