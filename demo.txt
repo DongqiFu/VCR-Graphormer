@@ -1,0 +1,37 @@
+python train.py --device 0 --dataset pubmed --hops 7 --num_structure_supernodes 10 --num_structure_tokens 16 --num_content_tokens 13 --hidden_dim 512 --n_heads 8 --seed 277 --n_layers 1  --batch_size 2000
+
+
+python train.py --device 0 --dataset corafull --hops 3 --num_structure_supernodes 20 --num_structure_tokens 5 --num_content_tokens 5 --hidden_dim 512 --n_heads 8 --seed 1216 --n_layers 1  --batch_size 2000
+
+
+python train.py --device 0 --dataset computer --hops 3 --num_structure_supernodes 10 --num_structure_tokens 11 --num_content_tokens 16 --hidden_dim 512 --n_heads 8 --seed 2685 --n_layers 1  --batch_size 2000
+
+
+python train.py --device 0 --dataset photo --hops 3 --num_structure_supernodes 10 --num_structure_tokens 5 --num_content_tokens 5 --hidden_dim 512 --n_heads 8 --seed 1283 --n_layers 1  --batch_size 2000
+
+
+python train.py --device 0 --dataset cs --hops 3 --num_structure_supernodes 20 --num_structure_tokens 5 --num_content_tokens 5 --hidden_dim 512 --n_heads 8 --seed 1228 --n_layers 3  --batch_size 2000
+
+
+python train.py --device 0 --dataset physics --hops 4 --num_structure_supernodes 50 --num_structure_tokens 10 --num_content_tokens 20 --hidden_dim 128 --n_heads 8 --seed 1168 --n_layers 1  --batch_size 2000
+
+
+python train.py --device 0 --dataset reddit --hops 6 --num_structure_supernodes 400 --num_structure_tokens 20 --num_content_tokens 20 --hidden_dim 512 --n_heads 8 --seed 2935 --n_layers 1  --batch_size 2000
+
+
+python train.py --device 0 --dataset aminer --hops 16 --num_structure_supernodes 100 --num_structure_tokens 5 --num_content_tokens 9 --hidden_dim 512 --n_heads 16 --seed 1238 --n_layers 3  --batch_size 2000
+
+
+python train.py --device 0 --dataset Amazon2M --hops 10 --num_structure_supernodes 300 --num_structure_tokens 5 --num_content_tokens 5 --hidden_dim 512 --n_heads 1 --seed 319 --n_layers 1  --batch_size 2000
+
+
+python train.py --device 0 --dataset squirrel --hops 5 --num_structure_supernodes 10 --num_structure_tokens 10 --num_content_tokens 1 --hidden_dim 512 --n_heads 8 --seed 107 --n_layers 1  --batch_size 2000
+
+
+python train.py --device 0 --dataset actor --hops 2 --num_structure_supernodes 10 --num_structure_tokens 10 --num_content_tokens 1 --hidden_dim 512 --n_heads 1 --seed 127 --n_layers 1  --batch_size 2000
+
+
+python train.py --device 0 --dataset texas --hops 2 --num_structure_supernodes 10 --num_structure_tokens 5 --num_content_tokens 5 --hidden_dim 512 --n_heads 8 --seed 144 --n_layers 1  --batch_size 2000
+
+
+python train_hetero.py --device 0 --dataset arxiv-year --hops 8 --num_structure_supernodes 500 --num_structure_tokens 16 --num_content_tokens 6 --hidden_dim 128 --n_heads 8 --seed 1146 --split_idx 0  --n_layers 1  --batch_size 2000
